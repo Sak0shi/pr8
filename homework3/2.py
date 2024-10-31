@@ -1,4 +1,4 @@
-for i in range(10):
-    for j in range(10):
-        print('* ', end="")
-    print('\n', end="")
+print("*  "*10)
+for j in range(8):
+    print('*'+'  '*13+'*')
+print("*  "*10)
